@@ -1,0 +1,29 @@
+.navbar{
+  display: flex;  /*Converts the .navbar into a Flex container so its children are laid out in a row by default.*/
+  justify-content: space-between; /*Puts space between the logo and the links — one on the left, one on the right.*/
+  align-items: center; /*Vertically centers the logo and links in the navbar.*/
+  padding: 15px 30px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 40px;
+}
+.logo:hover{
+  color: #00bfff;
+  cursor: pointer;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-right: 50px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links li a:hover {
+  color: #00bfff;
+}
