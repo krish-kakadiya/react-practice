@@ -4,21 +4,23 @@ import CardGrid from './component/card/CardGrid';
 import AuthForm from './component/loginSignUp/AuthForm';
 import List from './component/Listmap/List';
 import Form from './component/Form/Form';
+import Pract from './classwork/Prac3';
+import Demo1 from './classwork/Demo1';
+import Demo2 from './classwork/Demo2';
+
 
 function App() {
 
   return (
     <>
     <Navbar/>
-    
     <CardGrid/>
-    
     <AuthForm/>
-
     <List/>
     <Form/>
-
-
+    <Pract/>
+    <Demo1 value={'krish kakadiya'}/>
+    <Demo2/>
     </>
   )
 }
