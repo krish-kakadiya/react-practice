@@ -7,6 +7,8 @@ import Form from './component/Form/Form';
 import Pract from './classwork/Prac3';
 import Demo1 from './classwork/Demo1';
 import Demo2 from './classwork/Demo2';
+import Message from './component/Message/Message';
+import Counter from './component/Counter/Counter';
 
 
 function App() {
@@ -19,8 +21,12 @@ function App() {
     <List/>
     <Form/>
     <Pract/>
-    <Demo1 value={'krish kakadiya'}/>
+    <Demo1 name={'krish kakadiya'} age={'19'}/>
     <Demo2/>
+
+    <Message/>
+    <Counter/>
+    
     </>
   )
 }
